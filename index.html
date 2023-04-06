@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
+<body id="home">
     <header>
         <div class="logo"><img src="logo.png" alt="log0 image"></div>
         <div class="hamburger">
@@ -19,10 +19,10 @@
         </div>
         <nav class="nav-bar">
             <ul>
-                <li><a href="" class="active">Home</a></li>
-                <li><a href="#about-me">Projects</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
 
             </ul>
         </nav>
@@ -46,7 +46,7 @@
                 </p>
                 <div class="header-links">
                     <a class="resume" href="#">Resume</a>
-                    <a class="myworks" href="#">My Works</a>
+                    <a class="myworks" href="#projects">My Works</a>
                 </div>
                 
 
@@ -56,7 +56,7 @@
 
         </header>
         <!-- about section starts here  -->
-        <div class="about" id="about-me">
+        <div class="about" id="about">
             <section class="about-me">
                 <h1>About</h1>
                 <p>Hi! I'm Aliko Amos from Upper East Region of Ghana. I'm a student and also a front-end developer. I love creating things and seeing them online.
@@ -84,7 +84,7 @@
         </div>
         <!-- some of my works starts here -->
         <h2 class="some-projects-h2">Some Projects</h2>
-        <div class="some-works">
+        <div class="some-works" id="projects">
             
             
             <div class="cards">
@@ -114,7 +114,7 @@
                 </p>
             </div>
         </div>
-        <section class="get-in-touch">
+        <section class="get-in-touch" id="contact">
             <div class="get-message">
                 <div class="one">
                     <h1>Get in touch</h1>
