@@ -133,7 +133,8 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 20px 40px 0 40px ;
+    padding-bottom: 0;
     padding-bottom: 2.5rem;
     
 }
@@ -191,7 +192,8 @@ h1 .header-bio{
 }
 /* hero section ends here */
 
-
+/* ###########hero section screen size 780 and above############## */
+/* ###########hero section screen size 780 and above############## */
 @media only screen and (min-width:780px){
    .container header{
     display: flex;
@@ -228,7 +230,10 @@ h1 .header-bio{
    .container .header-name{
     font-size: 35px;
    }
+  
    
+
+
 }
 .about{
     
@@ -254,6 +259,7 @@ h1 .header-bio{
 }
 .myskills{
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .about-skills{
@@ -271,4 +277,69 @@ h1 .header-bio{
     text-align: center;
     color: white;
     margin-top: 30px;
+}
+/* media screen for about and skills i learnt start here */
+@media only screen and (min-width:780px){
+
+    .about{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-me{
+        width: 450px;
+        margin-right: 20px;
+        border: 2px solid white;
+        padding: 30px;
+    }
+    .myskills{
+        width: 400px;
+        margin-left: 20px;
+    }
+    .about-me p{
+        text-align: left;
+    }
+}
+.some-works{
+    background-color:hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.cards img{
+    width: 100%;
+    border: 2px solid white;
+  
+}
+.some-works p{
+    padding: 10px;
+    color: white;
+    margin-bottom: 30px 20px ;
+    line-height: 25px;
+    padding-bottom: 70px;
+    
+}
+
+.some-projects-h2{
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    
+}
+/* media screen for some projects */
+@media only screen and (min-width:780px){
+    .some-works{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .cards{
+        width: 350px;
+        margin: 20px;
+    }
 }
