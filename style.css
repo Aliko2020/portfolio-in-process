@@ -343,3 +343,67 @@ h1 .header-bio{
         margin: 20px;
     }
 }
+.get-in-touch{
+    height: 90vh;
+    background-color: hsl(184, 100%, 22%);
+    text-align: center; 
+    color: white;
+}
+.get-message{
+    margin-bottom: 200px;
+}
+.get-message h1{
+    color: white;
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    
+
+}
+.get-message p{
+    font-size: 25px;
+    margin-bottom: 100px;
+    padding: 20px;
+    
+}
+.get-message .getin{
+    color: white;
+    margin: 100px;
+    padding: 20px;
+    
+    
+}
+.get-socials ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
+footer{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+.send-message{
+    padding: 20px;
+    color: white;
+    margin-top: 80px;
+    border-radius: 5px;
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+}
+.send-message:hover{
+    background-color: white;
+    cursor: pointer;
+    color: hsl(184, 100%, 22%);
+}
+/* media for get in touch  */
+@media only screen and (min-width:780px){
+    .send-message{
+        display: none;
+    }
+}
