@@ -190,6 +190,9 @@ h1 .header-bio{
     border-radius: 5px;
     color:black;
 }
+.about-skills li{
+    color: white;
+}
 /* hero section ends here */
 
 /* ###########hero section screen size 780 and above############## */
@@ -329,6 +332,7 @@ h1 .header-bio{
     text-align: center;
     padding-top: 70px;
     padding-bottom: 20px;
+    text-decoration: underline;
     
 }
 /* media screen for some projects */
@@ -349,6 +353,7 @@ h1 .header-bio{
     text-align: center; 
     color: white;
     padding-bottom: 50px;
+    
 }
 .get-message{
     margin-bottom: 200px;
@@ -358,6 +363,7 @@ h1 .header-bio{
     font-size: 35px;
     margin-bottom: 10px;
     padding-top: 50px;
+    text-decoration: underline;
     
 
 }
@@ -373,6 +379,19 @@ h1 .header-bio{
     padding: 20px;
     
     
+}
+.get-message .two{
+    margin-top: 30px;
+}
+.two a:hover{
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
+.two a{
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 .get-socials ul{
     display: flex;
