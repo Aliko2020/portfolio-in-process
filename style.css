@@ -81,6 +81,7 @@ header{
         
     }
     .nav-bar{
+        display: none;
         height: 0;
         position: absolute;
         top: 80px;
