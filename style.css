@@ -176,7 +176,9 @@ h1 .header-bio{
 .header-links{
     position: relative;
     top: 20px;
+    cursor: pointer;
 }
+
 .header-links .resume{
     padding: 10px 35px ;
     border: 2px solid white ;
@@ -184,11 +186,20 @@ h1 .header-bio{
     color: white;
     
 }
+.header-links .resume:hover{
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+}
 .header-links .myworks{
     padding: 10px 30px ;
     background-color: aquamarine;
     border-radius: 5px;
     color:black;
+}
+.header-links .myworks:hover{
+    opacity: 0.6;
+    background-color: white;
+    color: hsl(184, 100%, 22%);
 }
 .about-skills li{
     color: white;
@@ -422,9 +433,7 @@ footer{
     cursor: pointer;
     color: hsl(184, 100%, 22%);
 }
-/* media for get in touch  */
-@media only screen and (min-width:780px){
-    .send-message{
-        display: none;
-    }
-}
+
+
+
+
