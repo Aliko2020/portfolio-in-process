@@ -348,7 +348,7 @@ h1 .header-bio{
     background-color: hsl(184, 100%, 22%);
     text-align: center; 
     color: white;
-    padding: 20px;
+    padding-bottom: 50px;
 }
 .get-message{
     margin-bottom: 200px;
