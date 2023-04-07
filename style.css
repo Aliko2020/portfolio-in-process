@@ -131,7 +131,7 @@ header{
 .container header{
     background-color:hsl(184, 100%, 22%);
     display: flex;
-    height: 80vh;
+    height: 90vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -223,7 +223,7 @@ header .get-socials-aside{
     }
     header .get-socials-aside{
         display: flex;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
     
    .avater{
@@ -273,14 +273,16 @@ header .get-socials-aside{
     color: white;
 }
 .about p{
-    line-height: 20px;
+    line-height: 30px;
+    text-align: left;
+    padding: 20px;
 }
 .about-p-link{
     color: aquamarine;
 }
 .myskills{
     padding: 20px;
-    margin-bottom: 30px;
+    
 }
 
 .about-skills{
@@ -343,6 +345,7 @@ header .get-socials-aside{
     padding-bottom: 70px;
     
 }
+
 
 .some-projects-h2{
     color: white;
