@@ -131,13 +131,13 @@ header{
 .container header{
     background-color:hsl(184, 100%, 22%);
     display: flex;
-    height: 100vh;
+    height: 80vh;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px 40px 0 40px ;
-    padding-bottom: 0;
-    padding-bottom: 2.5rem;
+    
+    
     
 }
 
@@ -176,13 +176,14 @@ h1 .header-bio{
     line-height: 20px;
 }
 .header-links{
+
     position: relative;
     top: 20px;
     cursor: pointer;
 }
 
 .header-links .resume{
-    padding: 10px 35px ;
+    padding: 10px ;
     border: 2px solid white ;
     border-radius: 5px;
     color: white;
@@ -193,7 +194,7 @@ h1 .header-bio{
     color: hsl(184, 100%, 22%);
 }
 .header-links .myworks{
-    padding: 10px 30px ;
+    padding: 10px ;
     background-color: aquamarine;
     border-radius: 5px;
     color:black;
@@ -206,6 +207,10 @@ h1 .header-bio{
 .about-skills li{
     color: white;
 }
+
+header .get-socials-aside{
+    display: none;
+}
 /* hero section ends here */
 
 /* ###########hero section screen size 780 and above############## */
@@ -215,10 +220,12 @@ h1 .header-bio{
     display: flex;
     flex-direction: row-reverse;
     height: 90vh;
+    }
+    header .get-socials-aside{
+        display: flex;
+        padding-bottom: 50px;
+    }
     
-    
-    
-   }
    .avater{
     position: relative;
     bottom: 20px;
@@ -246,15 +253,13 @@ h1 .header-bio{
    .container .header-name{
     font-size: 35px;
    }
-  
+   
    
 
 
 }
+
 .about{
-    
-    height: 90vh;
-    height: 790px;
     background-color: hsl(184, 100%, 22%);
 }
 .about h1{
@@ -284,7 +289,7 @@ h1 .header-bio{
     text-align: center;
     justify-content: center;
     padding: 10px;
-    border: 1px solid white;
+    
 }
 .fa-brands{
     margin: 15px;
