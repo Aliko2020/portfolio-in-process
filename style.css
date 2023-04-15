@@ -10,7 +10,7 @@
     scroll-behavior: smooth;
     
 }
-header{
+ .nav-header{
     width: 100%;
     height: 80px;
     background-color: hsl(184, 100%, 22%);
@@ -236,9 +236,6 @@ header .get-socials-aside{
     width:600px;
     
    }
-   .avater img{
-
-   }
    .header-content{
     width: 600px;
     padding: 20px;
@@ -350,6 +347,7 @@ header .get-socials-aside{
     margin: 10px 0;
     font-size: 16px;
     cursor: pointer;
+    text-align: center;
 }
 .visitsite a{
     color:white ;
