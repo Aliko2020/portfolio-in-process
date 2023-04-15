@@ -114,7 +114,7 @@
     
     }
     .nav-bar.active{
-        height: 50vh;
+        height: 70vh;
     
     }
     .nav-bar.active ul{
@@ -132,7 +132,7 @@
         background-color: hsl(184, 100%, 22%);
         color: white;
     }
-   
+    
     
 }
 /* header main container for mobile */
@@ -207,6 +207,7 @@ h1 .header-bio{
     background-color: aquamarine;
     border-radius: 5px;
     color:black;
+    position: static;
 }
 .header-links .myworks:hover{
     opacity: 0.6;
