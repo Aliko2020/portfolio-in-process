@@ -8,6 +8,7 @@
     font-family: 'Roboto', sans-serif; ;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 header{
     width: 100%;
@@ -16,8 +17,10 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid white;
     
 }
+
 .logo img{
    width: 80px;
    position: relative;
@@ -136,6 +139,7 @@ header{
     align-items: center;
     justify-content: center;
     padding: 20px 40px 0 40px ;
+    border: 0;
     
     
     
@@ -336,6 +340,23 @@ header .get-socials-aside{
     width: 100%;
     border: 2px solid white;
   
+}
+.visitsite{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 30px ;
+    margin: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+.visitsite a{
+    color:white ;
+}
+.visitsite:hover{
+    opacity: 0.6;
+    transition: 0.5;
 }
 .some-works p{
     padding: 10px;
