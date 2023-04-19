@@ -92,8 +92,8 @@
         left:0;
         right: 0;
         width: 100vw;
-        background: white;
-        color: hsl(184, 77%, 48%);
+        background: #0A4D68;
+        color: white;
         transition: 0.5s;
         overflow: hidden;
         
@@ -122,7 +122,7 @@
     }
 
     .nav-bar ul li a{
-        color: hsl(184, 100%, 22%);
+        color: white;
         text-decoration: underline;
         margin-bottom: 25px;
         
@@ -489,14 +489,6 @@ header .get-socials-aside{
     
 
 }
-footer{
-    background-color: hsl(184, 100%, 22%);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    padding-top: 10px;
-    
-}
 .send-message{
     padding: 20px;
     color: white;
@@ -510,6 +502,8 @@ footer{
     cursor: pointer;
     color: hsl(184, 100%, 22%);
 }
+
+
 
 
 
