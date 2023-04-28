@@ -291,6 +291,9 @@ header .get-socials-aside{
 .about-p-link{
     color: aquamarine;
 }
+.more-about-me{
+    display: none;
+}
 .myskills{
     padding: 20px; 
     
